@@ -10,14 +10,13 @@ It provides real-time feedback through an LCD display and ensures only authorize
 | Component             | Quantity  | Purpose                      |
 |-----------------------|-----------|------------------------------|
 | Arduino Uno           |     1     | Main Controller              |
-| 16x2 LCD with I2C     |     1     | Display status and messages  |
+| 16x2 LCD              |     1     | Display status and messages  |
+| EEPROM                |           | Saving the cars in park      | 
 | Servo Motor           |     1     | Gate arm control             |
-| Infrared sensor       |     2     | Entry/exit detection         |
-| Weight sensor + HX711 |    2-3    | Vehicle weight detection     |
-| NFC Reader (RC522)    |     1     | Authorized user verification |
+| Infrared sensor       |     1     | Entry detection              |
+| Ultrasonic sensor     |     1     | Exit detection               |
 | Breadboard & Wires    |           | Connections                  |
 | Power Supply          |     1     | System Power                 |
 
 
 ## Implementetion Steps and Technologies
-### Work in Progress
